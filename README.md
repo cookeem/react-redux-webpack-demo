@@ -111,31 +111,4 @@ webpack: Compiled successfully.
 - 使用webpack检查依赖包，按照依赖包大小进行排序，最后的文件最大
 ```sh
 $ webpack --display-modules --sort-modules-by size
-Hash: 05ac7f528cdbce423cca
-Version: webpack 2.4.1
-Time: 2094ms
-    Asset    Size  Chunks                    Chunk Names
-bundle.js  737 kB       0  [emitted]  [big]  main
-  [81] ./~/react/react.js 56 bytes {0} [built]
-  [80] ./~/react-dom/index.js 59 bytes {0} [built]
- [144] ./~/react-dom/lib/ReactVersion.js 350 bytes {0} [built]
- [177] ./~/react/lib/ReactVersion.js 350 bytes {0} [built]
- [168] ./~/react-dom/lib/renderSubtreeIntoContainer.js 422 bytes {0} [built]
-  [58] ./~/react-dom/lib/ReactDOMComponentFlags.js 429 bytes {0} [built]
-  [54] ./~/prop-types/lib/ReactPropTypesSecret.js 436 bytes {0} [built]
- [179] ./~/react/lib/getNextDebugID.js 437 bytes {0} [built]
- [116] ./~/react-dom/lib/ReactDOMFeatureFlags.js 439 bytes {0} [built]
- [175] ./~/react/lib/ReactPropTypesSecret.js 442 bytes {0} [built]
-  [66] ./~/react-dom/lib/ReactPropTypesSecret.js 442 bytes {0} [built]
-...
-  [26] ./~/react-dom/lib/ReactBrowserEventEmitter.js 12.6 kB {0} [built]
- [118] ./~/react-dom/lib/ReactDOMInput.js 13 kB {0} [built]
- [101] ./~/react-dom/lib/BeforeInputEventPlugin.js 13.3 kB {0} [built]
-  [47] ./~/react-dom/lib/validateDOMNesting.js 13.7 kB {0} [built]
- [137] ./~/react-dom/lib/ReactMultiChild.js 14.6 kB {0} [built]
-  [98] ./~/prop-types/factoryWithTypeCheckers.js 17.6 kB {0} [built]
-  [64] ./~/react-dom/lib/ReactMount.js 25.5 kB {0} [built]
- [172] ./~/react/lib/ReactClass.js 26.9 kB {0} [built]
- [111] ./~/react-dom/lib/ReactCompositeComponent.js 35.2 kB {0} [built]
- [113] ./~/react-dom/lib/ReactDOMComponent.js 38.5 kB {0} [built]
 ```
